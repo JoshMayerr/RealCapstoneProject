@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background: url(img/pinkbackground.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	height: 100vh;
+	display: table; 
+}
+
+.wrapper {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+
+
+path {
+	stroke: #fff;
+	fill: #fff;
+	stroke-dasharray: 600;
+	opacity: 10;
+	animation: animate 3s;
+}
+
+@keyframes animate {
+	0% {
+		opacity: 0;
+		fill: none;
+		stroke-dashoffset: 600;
+	}
+
+	30% {
+		opacity: 10;
+		fill:none;
+		stroke-dashoffset: 600;
+
+	}
+
+	90% {
+		fill: rgba(255,255,255,0);
+	}
+
+	100% {
+		opacity: 10;
+		fill: rgb(255,255,255,1);
+		stroke-dashoffset: 0;
+	}
+}
