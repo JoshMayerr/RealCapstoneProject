@@ -1,0 +1,349 @@
+﻿
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+}
+ 
+body {
+       scroll-behavior: smooth;  
+}
+ 
+*{
+	scroll-behavior: smooth;
+
+}
+
+header {
+   margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background: url(img/bluebackground.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	height: 100vh;
+	display: table;
+
+}
+
+.morepadding {
+	padding-bottom: 350px;
+}
+ 
+.logo {
+      line-height: 30px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+.logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+ .flower img {
+ 	padding-top: 160px;
+
+ }  
+
+.menu {
+	font-family: 'Oswald', sans-serif;
+}
+ 
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 10;
+}
+ 
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+       font-family: "Helvetica Neue",sans-serif;
+        font-weight: lighter;
+}
+ 
+nav.black ul {
+      background: #000;
+}
+ 
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+ 
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+nav ul li a:hover {
+      text-decoration: none;
+      color: #ff9999;
+      font-size: 16px;
+
+}
+
+ 
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+ 
+@media(max-width: 786px) {
+ 
+         .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 28px;
+            float: left;
+      }
+ 
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+ 
+      nav.black ul {
+            background: #000;
+      }
+ 
+      .showing {
+            max-height: 34em;
+      }
+ 
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+ 
+      .menu-icon {
+            display: block;
+      }
+ 	
+ 	.flower img {
+ 		width: 90%;
+ 	}
+
+ 	.padding {
+ 		padding-left: 10px;
+ 		padding: 80px 0;
+ 	}
+
+}
+
+
+
+
+.pagetitle {
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+	line-height: 200px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.row {
+	font-size: 20px;
+	vertical-align: middle;
+	
+}
+
+
+
+
+.padding {
+	padding: 140px 0;
+}
+
+.padding img {
+	width: 60%;
+}
+
+
+.card {
+	min-height: 400px;
+	padding-left: 0px;
+	text-align: center;
+
+}
+
+.card-body {
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.card-title {
+	font-size: 20px;
+
+	font-family: 'Oswald', sans-serif;
+}
+
+#first {
+	padding-top: 8px;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+}
+
+.btn-primary {
+background-color: #f99689;
+	border: 3px solid #fff;
+	color: #fff;
+	border-radius: 10px;
+	width: 80px;
+}
+
+.btn-primary:hover {
+	background-color: #d68075;
+	color: #fff;
+	border-color: #fff;
+}
+
+.imggg{
+	height: 60%;
+	width: 80%;
+	padding-left: 100px;
+
+}
+
+
+#fixed {
+	background: url(img/pinkbackground.jpg) no-repeat center center fixed;
+	display: table;
+	height: 30%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	background-color: #000000;
+	padding: 5% 5%  10% 5%;
+	color: #FFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.fa {
+padding-right: 20px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #ff9999;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+.hi {
+	color: rgb(0,0,0,,5);
+}
+
+
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+
+	}
+
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+		margin-right: 1em;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+
+	.row {
+		
+		text-align: left;
+		padding-left: 20px;
+	}
+
+
+	#fixed {
+		background: url(img/pinkbackground.jpg) no-repeat 50% 50%  ;
+		display: table;
+		height: 10%;
+		position: relative;
+		width: 200%;
+		background-size: cover;
+	}
+
+	.imggg {
+		width: 70%;
+		padding-left: 0px;
+	}
+
+	.flower img {
+		padding-top: 240px;
+	}
+
+}
+
+.btn-outline-light {
+	color: #fff;
+	border-color: #fff;
+	border-width: 2px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	border-radius: 6px;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+
+.btn-outline-light:hover {
+	background-color:  #fff;
+	color: #ff9999;
+}
+
+
+
+
+
